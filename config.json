@@ -1,0 +1,17 @@
+{
+  "app": {
+    "address": "127.0.0.1:5000",
+    "entries": [
+      {
+        "path": "/login",
+        "backend": "http://localhost:6789",
+        "use_path": true
+      },
+      {
+        "path": "/",
+        "backend": "http://localhost:8888",
+        "use_path": true
+      }
+    ]
+  }
+}
